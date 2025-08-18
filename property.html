@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MY VILLA.com</title>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    .top-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 30px;
+      background-color: #fff;
+      border-bottom: 1px solid #ddd;
+      margin-left: 100px;
+      margin-right: 100px;
+    }
+
+    .contact-info {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      font-size: 14px;
+      color: #888;
+    }
+
+    .contact-info i,
+    .contact-info img {
+      color: #f15a24;
+      margin-right: 6px;
+    }
+
+    .contact-item {
+      display: flex;
+      align-items: center;
+    }
+
+    .social-icons {
+      display: flex;
+      gap: 12px;
+    }
+
+    .social-icons a {
+      text-decoration: none;
+      background-color: #ddd;
+      color: #fff;
+      font-size: 14px;
+      padding: 8px;
+      border-radius: 50%;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+
+    }
+
+    .social-icons a:hover {
+      background-color: #f15a24;
+    }
+   
+     .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-left: 100px;
+      margin-right: 100px;
+      padding: 30px 20px;
+      background-color: #f4f4f4;
+      border-bottom: 2px solid #ddd;
+    }
+
+    .logo img {
+      height: 40px;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 100px;
+    }
+
+    [href="#"],#wow {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      font-weight: 500;
+      transition: color 0.3s;
+      /* gap: 40px; */
+    }
+    #calender{
+    background-color: black;
+    display: flex;
+    border-radius: 20px;
+   }
+   #calender-item1{
+    background-color: orangered;
+    margin-right: 10px;
+    padding-left: 10px; 
+    padding-right: 10px;
+    height: 30px;
+    width: 30px;
+    color: white;
+    border-radius: 100%;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+   }
+   #calender-item2{
+    color: white;
+    padding-right: 10px;
+   }
+   [href="#$"]{
+     text-decoration: none;
+      color: white;
+      font-weight: bold;
+      font-weight: 500;
+      transition: color 0.3s;
+   }
+   [href="#$"]:hover{
+    color: orangered;
+   }
+    [href="#"]:hover {
+      color: orangered;
+    }
+    #wow:hover{
+      color: orangered;
+    }
+    .third{
+        background-image: url(./page-heading-bg.jpg);
+        background-size: cover;
+        max-width: 100%;
+        height: 600px;
+        justify-items: center;
+        align-content: center;
+    }
+    #para{
+        border: 2px solid white;
+        color: black;
+        padding: 10px;
+        background-color: white;
+    }
+    #para1{
+        color:white;
+        font-size:100px;
+        text-decoration:solid;
+        font-weight: 900;
+    }
+#grp{
+display: flex;
+      gap: 40px;
+margin: 100px;
+margin-left: 30%;
+
+
+}
+#grp a{
+      text-decoration: none;
+      background-color:black;
+      color: #fff;
+      font-size: 14px;
+      width: 200px;
+      height: 60px;
+      padding-left: 40px;
+      border-radius: 10px;
+      /* display: inline-flex; */
+      align-content: center;
+      justify-content: center;
+      font-size: x-large;
+}
+#grp a:hover{
+    background-color: #f15a24;
+}
+#bunch{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    font-size: x-large;
+    gap: 60px;
+
+}
+[alt="prop"]{
+    width: 500px;
+    border-radius: 20px;
+}
+#bu{
+    display: flex;
+    gap: 300px;
+}
+#appar{
+    background-color:rgb(232, 201, 201);
+    color: #333;
+    height: 40px;
+    width: 180px;
+    font-size: x-large;
+   padding-left: 20px;
+   border-radius: 10px;
+}
+#bun{
+    display: flex;
+    gap:150px;
+}
+#bunc{
+    display: flex;
+    gap: 70px;
+}
+#bun1{
+    display: flex;
+    gap: 70px;
+}
+#bunc1{
+    display: flex;
+    gap: 70px;
+}
+#visi{
+    background-color: black;
+    color: white;
+    width: 300px;
+    height: 60px;
+    align-content: center;
+    text-align: center;
+    border-radius: 40px;
+       margin-left: 120px;
+
+}
+#visi:hover{
+  background-color: orangered;
+}
+#horn{
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.2);
+    margin-right: 35px;
+/* border-radius: 20px; */
+}
+
+
+
+
+  footer{
+    background-color: black;
+    height: 100px;
+    align-content: center;
+    justify-items: center;
+}
+#copy{
+    color: white;
+    font-size: x-large;
+}
+
+     </style>
+</head>
+<body>
+
+  <div class="top-bar d-flex justify-content-between align-items-center">
+    <div class="left d-flex align-items-center">
+      <span class="me" style="padding-right: 10px;">
+        <i class="fas fa-envelope" style="color: orangered;"></i> info@company.com
+      </span>
+      <span>|</span>
+      <span>
+        <i class="fas fa-map-marker-alt" style="color: orangered;padding-left: 10px;"></i> Sunny Isles Beach, FL 33160
+      </span>
+    </div>
+
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+
+  <nav class="navbar">
+    <div class="logo">
+      <h3>VILLA</h3>
+    </div>
+    <div class="nav-links">
+      <a id="wow" href="home.html">HOME</a>
+      <a id="wow" href="property.html">PROPERTY</a>
+      <a id="wow" href="property value.html">PROPERTY ITEM</a>
+      <a id="wow" href="contact us.html">CONTACT US</a>
+     <div id="calender">
+        <div id="calender-item1">
+       <a href="#" style="color: white;"><i class="fa-jelly-fill fa-regular fa-calendar"></i></a></div> 
+       <div id="calender-item2">
+        <a href="#$">Schedule a visit</a></div>
+       </div>
+    </div>
+  </nav>
+ 
+  <section >
+    <div class="third">
+    <h3 id="para">HOME / PROPERTIES</h3>
+    <h1 id="para1">PROPERTIES</h1>
+    </div>
+</section><br><br>
+
+<section>
+    <div id="grp">
+        <a href="*">Show All</a>
+        <a href="*">Apartment</a>
+        <a href="*">Villa House</a>
+        <a href="*">Penthouse</a>
+    </div>
+</section>
+
+<div id="bunch">
+    <div><div id="horn">
+        <img src="./property-01.jpg" alt="prop"><br><br>
+        <div id="bu">
+        <p id="appar">Luxery Villa</p>
+        <p style="color: orangered; font-weight: 800;">$2.264.00</p></div>
+        <p style="font-weight: 700; font-size: xx-large;"><b>18 Old Street Miami,OR 97219</b></p>
+        <div id="bun">
+            <p>Bedrooms:<b>8</b></p>
+            <p>Bathrooms:<b>8</b></p>
+        </div>
+        <div id="bunc">
+            <p>Area: <b>545m2</b></p>
+            <p>Floor: <b>3</b></p>
+            <p>Parking: <b>6 spots</b></p>
+        </div></div><br>
+        <div>
+        <p id="visi">schedule a visit</p></div>
+    </div>
+    <div><div id="horn">
+        <img src="./property-02.jpg" alt="prop"><br><br>
+        <div id="bu">
+        <p id="appar">Luxery Villa</p>
+        <p style="color: orangered; font-weight: 800;">$1.180.00</p></div>
+        <p style="font-weight: 700; font-size: xx-large;"><b>54 New Street Florida,OR 27001</b></p>
+        <div id="bun">
+            <p>Bedrooms:<b>6</b></p>
+            <p>Bathrooms:<b>5</b></p>
+        </div>
+        <div id="bunc">
+            <p>Area: <b>450m2</b></p>
+            <p>Floor: <b>3</b></p>
+            <p>Parking: <b>8 spots</b></p>
+        </div></div><br>
+        <div>
+        <p id="visi">schedule a visit</p></div>
+    </div>
+    <div><div id="horn">
+       <img src="./property-03.jpg" alt="prop"><br><br>
+        <div id="bu">
+        <p id="appar">Luxery Villa</p>
+        <p style="color: orangered; font-weight: 800;">$1.460.00</p></div>
+        <p style="font-weight: 700; font-size: xx-large;"><b>26 Mid Street Portland,OR 38540</b></p>
+        <div id="bun">
+            <p>Bedrooms:<b>5</b></p>
+            <p>Bathrooms:<b>4</b></p>
+        </div>
+        <div id="bunc">
+            <p>Area: <b>225m2</b></p>
+            <p>Floor: <b>3</b></p>
+            <p>Parking: <b>10 spots</b></p>
+        </div></div><br>
+        <div>
+        <p id="visi">schedule a visit</p></div>
+    </div>
+    <div><div id="horn">
+        <img src="./property-04.jpg" alt="prop"><br><br>
+        <div id="bu">
+        <p id="appar">Apartment</p>
+        <p style="color: orangered; font-weight: 800;">$584.500</p></div>
+        <p style="font-weight: 700; font-size: xx-large;"><b>12 Hope Street Portland,OR 12650</b></p>
+        <div id="bun1">
+            <p>Bedrooms:<b>4</b></p>
+            <p>Bathrooms:<b>3</b></p>
+            <p>Area:<b>125m2</b></p>
+        </div>
+        <div id="bunc1">
+            <p>Floor: <b>25th</b></p>
+            <p>Parking: <b>2 cars</b></p>
+        </div></div><br>
+        <div>
+        <p id="visi">schedule a visit</p></div>
+    </div>
+    <div><div id="horn">
+        <img src="./property-05.jpg" alt="prop"><br><br>
+        <div id="bu">
+        <p id="appar">Penthouse</p>
+        <p style="color: orangered; font-weight: 800;">$925.600</p></div>
+        <p style="font-weight: 700; font-size: xx-large;"><b>34 Hope Street Portland,OR 42680</b></p>
+        <div id="bun1">
+            <p>Bedrooms:<b>4</b></p>
+            <p>Bathrooms:<b>4</b></p>
+            <p>Area:<b>180m2</b></p>
+        </div>
+        <div id="bunc1">
+            <p>Floor: <b>38th</b></p>
+            <p>Parking: <b>2 cars</b></p>
+        </div></div><br>
+        <div>
+        <p id="visi">schedule a visit</p></div>
+    </div>
+    <div><div id="horn">
+       <img src="./property-06.jpg" alt="prop"><br><br>
+        <div id="bu">
+        <p id="appar" style="width: 200px;">Modern Condo</p>
+        <p style="color: orangered; font-weight: 800;">$584.500</p></div>
+        <p style="font-weight: 700; font-size: xx-large;"><b>22 Hope Street Portland,OR 16540</b></p>
+        <div id="bun1">
+            <p>Bedrooms:<b>3</b></p>
+            <p>Bathrooms:<b>2</b></p>
+            <p>Area:<b>165m2</b></p>
+        </div>
+        <div id="bunc1">
+            <p>Floor: <b>26th</b></p>
+            <p>Parking: <b>3 cars</b></p>
+        </div></div><br>
+        <div>
+        <p id="visi">schedule a visit</p></div>
+    </div>
+    <div><div id="horn">
+        <img src="./property-03.jpg" alt="prop"><br><br>
+        <div id="bu">
+        <p id="appar">Luxery Villa</p>
+        <p style="color: orangered; font-weight: 800;">$980.00</p></div>
+        <p style="font-weight: 700; font-size: xx-large;"><b>14 Mid Street Miami,OR 36450</b></p>
+        <div id="bun">
+            <p>Bedrooms:<b>8</b></p>
+            <p>Bathrooms:<b>8</b></p>
+        </div>
+        <div id="bunc">
+            <p>Area: <b>550m2</b></p>
+            <p>Floor: <b>3</b></p>
+            <p>Parking: <b>12 spots</b></p>
+        </div></div><br>
+        <div>
+        <p id="visi">schedule a visit</p></div>
+    </div>
+    <div><div id="horn">
+         <img src="./property-02.jpg" alt="prop"><br><br>
+        <div id="bu">
+        <p id="appar">Luxery Villa</p>
+        <p style="color: orangered; font-weight: 800;">$1.520.00</p></div>
+        <p style="font-weight: 700; font-size: xx-large;"><b>26 Old Street Miami,OR 12870</b></p>
+        <div id="bun">
+            <p>Bedrooms:<b>12</b></p>
+            <p>Bathrooms:<b>15</b></p>
+        </div>
+        <div id="bunc">
+            <p>Area: <b>380m2</b></p>
+            <p>Floor: <b>3</b></p>
+            <p>Parking: <b>14 spots</b></p>
+        </div></div><br>
+        <div>
+        <p id="visi">schedule a visit</p></div>
+    </div>
+    <div><div id="horn">
+        <img src="./property-01.jpg" alt="prop"><br><br>
+        <div id="bu">
+        <p id="appar">Luxery Villa</p>
+        <p style="color: orangered; font-weight: 800;">$3.145.00</p></div>
+        <p style="font-weight: 700; font-size: xx-large;"><b>34 New Street Miami,OR 24650</b></p>
+        <div id="bun">
+            <p>Bedrooms:<b>10</b></p>
+            <p>Bathrooms:<b>12</b></p>
+        </div>
+        <div id="bunc">
+            <p>Area: <b>860m2</b></p>
+            <p>Floor: <b>3</b></p>
+            <p>Parking: <b>10 spots</b></p>
+        </div></div><br>
+        <div>
+        <p id="visi">schedule a visit</p></div>
+    </div>
+</div>
+
+
+
+
+
+<footer>
+    <p id="copy">Copyright © 2048 Villa Agency co., Ltd. All rights reserved.Design: Abhishek</p>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html>
